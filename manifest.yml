@@ -1,0 +1,8 @@
+---
+applications:
+- name: flask-ip
+  instances: 1
+  memory: 128M
+  health-check-type: port
+  docker:
+    image: <ragistry_url>/flask-ip:latest
